@@ -1,0 +1,25 @@
+[project]
+name = "Kartik"
+version = "0.1.0"
+description = "WorkFlow"
+authors = [
+    { name = "Kartik" }
+]
+requires-python = ">=3.8"
+
+dependencies = [
+    "fastapi[all]",
+    "uvicorn[standard]",
+    "psycopg2-binary",
+    "sqlalchemy",
+    "python-multipart",
+    "PyMuPDF",
+    "openai",
+    "chromadb",
+    "python-dotenv",
+    "google-generativeai",
+    "google-search-results",
+]
+
+[tool.uv]
+dev-dependencies = []
