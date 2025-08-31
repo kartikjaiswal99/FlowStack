@@ -50,14 +50,6 @@ def run_workflow(stack_id: int, workflow: dict, query: str):
                 print("--- Performing Web Search ---")
                 web_context = web_search.perform_search(prompt_input_query)
 
-
-            # prompt_template = node_data.get('prompt', 
-            #     "You are a helpful assistant. Answer the user's query based on your knowledge. "
-            #     "If context from a document is provided below, use it to inform your answer. "
-            #     "If the context is not relevant to the query, ignore it and answer directly."
-            #     "\n\nCONTEXT:\n{context}\n\nUSER QUERY:\n{query}"
-            # )
-
             prompt_template = node_data.get('prompt',
                 """
                     You are a helpful assistant. Your task is to provide a direct answer to the user's query.

@@ -175,7 +175,7 @@ USER QUERY:
       <header style={styles.header}>
         {/* This title is now a clickable link to the dashboard */}
         <Link to="/" style={styles.headerLink}>
-          <h1 style={styles.headerTitle}>GenAI Stack</h1>
+          <h1 style={styles.headerTitle}>FlowStack</h1>
         </Link>
       </header>
 

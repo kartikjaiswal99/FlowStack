@@ -25,7 +25,7 @@ const DashboardPage = () => {
   return (
     <div style={styles.page}>
       <header style={styles.header}>
-        <h1 style={styles.headerTitle}>GenAI Stack</h1>
+        <h1 style={styles.headerTitle}>FlowStack</h1>
       </header>
       <main style={styles.mainContent}>
         <div style={styles.subHeader}>

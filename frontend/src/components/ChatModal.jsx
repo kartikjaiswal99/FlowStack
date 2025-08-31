@@ -36,7 +36,7 @@ const ChatModal = ({ isOpen, onClose, onSendMessage, conversation, isLoading, in
     <div style={styles.modalOverlay}>
       <div style={styles.modalContent}>
         <div style={styles.header}>
-          <h3>GenAI Stack Chat</h3>
+          <h3>FlowStack Chat</h3>
           <button onClick={onClose} style={styles.closeButton}>X</button>
         </div>
 
