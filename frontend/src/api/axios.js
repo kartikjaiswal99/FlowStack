@@ -1,7 +1,8 @@
 import axios from 'axios';
 
 const apiClient = axios.create({
-  baseURL: 'http://localhost:8000', 
+  // baseURL: 'http://localhost:8000', 
+  baseURL: 'https://kartik.micro-scale.software/flowstack', 
   headers: {
     'Content-Type': 'application/json',
   },
